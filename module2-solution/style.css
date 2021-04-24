@@ -1,6 +1,5 @@
 *{
 	box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .row{
@@ -8,7 +7,21 @@
 	font-weight: bold;
 }
 
-.p1{
+#container{
+	position: relative;
+}
+
+
+p {
+    background-color: FCE2E0;
+    border: 2px solid black;
+    height: 150px;
+    margin-right: 10px;
+    padding: 40px 10px 5px 10px;
+    overflow: hidden;
+}
+
+#p1{
 	background-color: pink;
     color: black;
     position: absolute;
@@ -48,10 +61,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.container{
-	position: relative;
-}
 
 @media (min-width: 768px) and (max-width: 991px){
 .col-md-12 {
